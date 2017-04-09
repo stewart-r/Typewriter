@@ -57,6 +57,7 @@
     </DocumentationFile>
     <CreateVsixContainer Condition="'$(NCrunch)' != ''">False</CreateVsixContainer>
     <DeployExtension Condition="'$(NCrunch)' != ''">False</DeployExtension>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
